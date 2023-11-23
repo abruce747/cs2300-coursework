@@ -1,0 +1,40 @@
+Part 1:
+		Files, readers, writers, and matrices set up in constructor
+	and helper method. Calculations and file writing handled in 
+	do_tasks method. Helper methods used to write the results to the
+	output file and to the console for testing. 
+
+Part 2:
+		Files and related objects set up in constructor with a helper
+	method to load the file's data into matrices. Further methods calculate 
+	coefficient and constant of y=mx+b equation. Within the display_charts()
+	method an instance of the PlotExample class was made for displaying the
+	graph with points and a line of best fit. Helper methods were used to 
+	find and send data for the PlotExample instance (mostly for sizing the
+	line and displaying textual information). Other helper methods write
+	the equation to the output file and write the matrices and equation to
+	the console for easier testing.
+	
+PlotExample (extends ApplicationFrame):
+		A scatter plot and a line chart were created, their datasets were
+	loaded with helper methods from the matrices and equation components
+	in the constructor, and the two charts were layered into the renderer
+	for a mater chart to use, as line charts and scatter plots are entirely
+	separate object types. This was more difficult than was necessary, but
+	I thought that I should try to get a simple line to appear first in 
+	order to better understand the JFreeChart library. Helper methods 
+	print the data to console for testing.
+
+
+References (almost all for Part 2 and PlotExample code):
+ 		https://www.jfree.org/forum/viewtopic.php?t=27883
+ 		https://thinktibits.blogspot.com/2013/01/JFreeChart-Java-Line-Chart-Graph-Example.html
+ 		https://www.javatpoint.com/java-plot	
+		https://www.tutorialspoint.com/jfreechart/jfreechart_line_chart.html
+		https://www.javatpoint.com/jfreechart-scatter-chart
+ 		https://www.jfree.org/jfreechart/api/javadoc/
+ 		https://mvnrepository.com/artifact/org.jfree/jfreechart/1.5.4
+ 		https://www.tutorialspoint.com/jfreechart/jfreechart_line_chart.htm
+ 		https://www.cs.colostate.edu/~cs160/.Summer16/resources/Java_printf_method_quick_reference.pdf
+ 		https://www.digitalocean.com/community/tutorials/java-printf-method
+ 		https://math.nist.gov/javanumerics/jama/doc/Jama/Matrix.html

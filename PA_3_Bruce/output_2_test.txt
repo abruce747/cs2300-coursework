@@ -1,0 +1,5 @@
+
+	y = 1.2x - 0.2
+The graph should appear as a window when running the program.
+I couldn't figure out the location or name of the class files 
+	I'd need in order to create a JPEG of the graph.
